@@ -4,3 +4,4 @@ dataset/vs/
 *.nii.gz
 model/
 logs/
+*.pt
