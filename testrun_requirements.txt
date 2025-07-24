@@ -1,0 +1,31 @@
+# Complete Med-DDPM requirements for CPU dry run
+# Core PyTorch
+torch==1.13.1
+torchvision==0.14.1
+
+# Core dependencies
+numpy>=1.23,<2.0
+nibabel==4.0.2
+scikit-learn==0.24.2
+
+# Medical imaging
+torchio==0.18.86
+
+# Progress bars and utilities  
+tqdm>=4.64.0
+einops>=0.4.0
+
+# Visualization and logging
+matplotlib==3.9.0
+tensorboard>=2.10.0
+
+# Image processing
+pillow>=8.0.0
+
+# Optional but commonly used
+pathlib2>=2.3.0  # For older Python compatibility
+argparse  # Built-in, but explicit
+
+# For JAX-based fast sampling (optional)
+# jax>=0.3.0  # Commented out for CPU-only
+# jaxlib>=0.3.0  # Commented out for CPU-only
