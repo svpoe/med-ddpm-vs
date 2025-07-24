@@ -1,0 +1,6 @@
+dataset/vs/
+
+*.nii
+*.nii.gz
+model/
+logs/
