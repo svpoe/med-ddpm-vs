@@ -1,8 +1,40 @@
-torch==1.13.1+cu116
-torchio==0.18.86
-torchvision==0.14.1+cu116
-numpy==1.21.0
+# Core PyTorch (CPU versions for cloud compatibility)
+torch==1.13.1
+torchvision==0.14.1
+
+# Core dependencies
+numpy>=1.23,<2.0
 nibabel==4.0.2
+scikit-learn==0.24.2
 
+# Medical imaging
+torchio==0.18.86
 
+# Progress bars and utilities  
+tqdm>=4.64.0
+einops>=0.4.0
 
+# Visualization and logging
+matplotlib>=3.5.0
+tensorboard>=2.10.0
+
+# Image processing
+pillow>=8.0.0
+
+# Cloud dependencies
+google-cloud-storage>=2.0.0
+google-cloud-aiplatform>=1.0.0
+
+# Additional dependencies found in your code
+pathlib  # Built-in but explicit
+argparse  # Built-in but explicit
+datetime  # Built-in but explicit
+time  # Built-in but explicit
+os  # Built-in but explicit
+glob  # Built-in but explicit
+re  # Built-in but explicit
+copy  # Built-in but explicit
+math  # Built-in but explicit
+warnings  # Built-in but explicit
+inspect  # Built-in but explicit
+functools  # Built-in but explicit

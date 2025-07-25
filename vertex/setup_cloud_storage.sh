@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuration - CHANGE THESE VALUES
-PROJECT_ID="your-project-id"
-BUCKET_NAME="vs-diffusion-training"
+PROJECT_ID="vs-segmentation"
+BUCKET_NAME="vs-segmentation"
 REGION="us-central1"
 
 echo "🚀 Setting up Vertex AI training environment..."
