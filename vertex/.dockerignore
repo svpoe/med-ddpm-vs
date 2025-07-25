@@ -1,0 +1,46 @@
+# Git and version control
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files (will be downloaded from GCS)
+dataset/vs/
+model/*.pt
+results/
+logs/
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+mask_generator.ipynb
+
+# Documentation
+README.md
+LICENSE
+images/
+
+# Test files
+testrun_requirements.txt
+
+# Large reference files
+reference_brats.nii.gz
